@@ -4,7 +4,7 @@ This repository contains source code for Newslettwe Subscription using ReactJS +
 
 ### 🔗 [Demo Video](https://vimeo.com/583754613)
 
-[![Demo Screenshot]()]()
+[![Demo Screenshot](https://raw.githubusercontent.com/DiabolusGX/newsletter-subscription/master/demo/demo.png)](https://raw.githubusercontent.com/DiabolusGX/newsletter-subscription/master/demo/demo.png)
 
 ## Index
 
