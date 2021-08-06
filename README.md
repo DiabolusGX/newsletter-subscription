@@ -1,6 +1,6 @@
-# Newslettwe Subscription
+# newsletter Subscription
 
-This repository contains source code for Newslettwe Subscription using ReactJS + Tailwind + Expressjs + MongoDB (with mongoose ODM) that lets you create new subscription and list all subscriptions that shows name, email and createdAt time of that subscription.
+This repository contains source code for newsletter Subscription using ReactJS + Tailwind + Expressjs + MongoDB (with mongoose ODM) that lets you create new subscription and list all subscriptions that shows name, email and createdAt time of that subscription.
 
 ### 🔗 [Demo Video](https://vimeo.com/583754613)
 
