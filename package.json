@@ -6,6 +6,7 @@
   "scripts": {
     "client": "cd client && yarn start",
     "server": "cd server && yarn start",
+    "install": "yarn install:client && yarn install:server",
     "install:client": "cd client && yarn install",
     "install:server": "cd server && yarn install",
     "start": "concurrently - kill-others \"yarn run server\" \"yarn run client\""

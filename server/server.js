@@ -31,16 +31,6 @@ app.post('/create', async (req, res) => {
         res.status(400).json({ msg: err.message });
     }
 });
-// delete subscription
-app.delete('/delete/:id', async (req, res) => {
-    try {
-        const subscription = await Subscription.findOneAndDelete(req.params.id);
-        res.status(200).json(subscription);
-    }
-    catch (err) {
-        res.status(500).json({ msg: err.message });
-    }
-});
 
 
 // connect to db and start server

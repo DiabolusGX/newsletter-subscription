@@ -10,7 +10,6 @@ export default function Subscriptions(props) {
         axios
             .get("http://localhost:3001/subscriptions")
             .then((response) => {
-                console.log(response.data);
                 setSubscriptions(response.data);
             })
             .catch((error) => {
@@ -21,12 +20,13 @@ export default function Subscriptions(props) {
     return (
         <>
             {subscriptions.length ? (
-                <div className="flex justify-end max-w-lg flex-wrap">
+                <div className="flex justify-end max-w-xl flex-wrap">
                     {subscriptions.map((sub) => (
                         <Detail
                             key={sub._id}
                             name={sub.name}
                             email={sub.email}
+                            createdAt={sub.createdAt}
                         />
                     ))}
                 </div>
