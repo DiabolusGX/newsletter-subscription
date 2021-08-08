@@ -22,12 +22,13 @@ app.get('/subscriptions', async (req, res) => {
 });
 // add subscription
 app.post('/create', async (req, res) => {
-    const subscription = new Subscription(req.body);
     try {
+        const subscription = new Subscription(req.body);
         await subscription.save();
         res.status(201).json(subscription);
     }
     catch (err) {
+        console.log(err);
         res.status(400).json({ msg: err.message });
     }
 });
